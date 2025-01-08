@@ -688,6 +688,19 @@ Generate a server-side manifest to initialise the SvelteKit [server](/docs/kit/@
 <div class="ts-block-property">
 
 ```dts
+generateCspHeaderValue(): string | null;
+```
+
+<div class="ts-block-property-details">
+
+Generate a Content Security Policy header string which can be used to define static header files for adapters like adapter-cloudflare
+
+</div>
+</div>
+
+<div class="ts-block-property">
+
+```dts
 getBuildDirectory(name: string): string;
 ```
 
